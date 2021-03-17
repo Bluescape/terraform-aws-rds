@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.31.1-beta"></a>
+## [v2.31.1-beta] - 2021-03-17
+
+- fix: adding 3 mods to make it backward compatible
+
+
 <a name="v2.31.0"></a>
 ## [v2.31.0] - 2021-03-16
 
@@ -675,7 +681,8 @@ All notable changes to this project will be documented in this file.
 - Initial commit
 
 
-[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-rds/compare/v2.31.0...HEAD
+[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-rds/compare/v2.31.1-beta...HEAD
+[v2.31.1-beta]: https://github.com/terraform-aws-modules/terraform-aws-rds/compare/v2.31.0...v2.31.1-beta
 [v2.31.0]: https://github.com/terraform-aws-modules/terraform-aws-rds/compare/v2.30.0...v2.31.0
 [v2.30.0]: https://github.com/terraform-aws-modules/terraform-aws-rds/compare/v2.29.0...v2.30.0
 [v2.29.0]: https://github.com/terraform-aws-modules/terraform-aws-rds/compare/v2.28.0...v2.29.0
