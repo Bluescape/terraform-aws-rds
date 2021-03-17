@@ -46,6 +46,8 @@ resource "aws_db_option_group" "this" {
 
   lifecycle {
     create_before_destroy = true
+    # BLUESCAPE_MOD: to make it backward compatible avoiding re-creation due to tile convention change
+    ignore_changes        = [option_group_description]
   }
 }
 
